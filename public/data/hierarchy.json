@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "CEO",
+    "title": "Chief Executive Officer",
+    "level": 1,
+    "parentId": null,
+    "department": "Executive",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "CTO",
+    "title": "Chief Technology Officer",
+    "level": 2,
+    "parentId": 1,
+    "department": "Technology",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "CFO",
+    "title": "Chief Financial Officer",
+    "level": 2,
+    "parentId": 1,
+    "department": "Finance",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "CHRO",
+    "title": "Chief Human Resources Officer",
+    "level": 2,
+    "parentId": 1,
+    "department": "Human Resources",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "IT Director",
+    "title": "Director of Information Technology",
+    "level": 3,
+    "parentId": 2,
+    "department": "IT",
+    "employeeCount": 2,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Engineering Manager",
+    "title": "Software Engineering Manager",
+    "level": 3,
+    "parentId": 2,
+    "department": "Engineering",
+    "employeeCount": 0,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Finance Manager",
+    "title": "Financial Operations Manager",
+    "level": 3,
+    "parentId": 3,
+    "department": "Finance",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "HR Manager",
+    "title": "Human Resources Manager",
+    "level": 3,
+    "parentId": 4,
+    "department": "HR",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Marketing Director",
+    "title": "Director of Marketing",
+    "level": 2,
+    "parentId": 1,
+    "department": "Marketing",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Sales Director",
+    "title": "Director of Sales",
+    "level": 2,
+    "parentId": 1,
+    "department": "Sales",
+    "employeeCount": 1,
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

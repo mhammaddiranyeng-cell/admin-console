@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "description": "Full system access with all permissions",
+    "permissions": ["read", "write", "delete", "admin"],
+    "userCount": 2,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "isActive": true,
+    "priority": 1
+  },
+  {
+    "id": 2,
+    "name": "Manager",
+    "description": "Department-level access with limited admin rights",
+    "permissions": ["read", "write", "limited_admin"],
+    "userCount": 3,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "isActive": true,
+    "priority": 2
+  },
+  {
+    "id": 3,
+    "name": "User",
+    "description": "Standard user access with basic permissions",
+    "permissions": ["read", "limited_write"],
+    "userCount": 3,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "isActive": true,
+    "priority": 3
+  },
+  {
+    "id": 4,
+    "name": "Guest",
+    "description": "Limited read-only access",
+    "permissions": ["read"],
+    "userCount": 0,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "isActive": false,
+    "priority": 4
+  },
+  {
+    "id": 5,
+    "name": "Supervisor",
+    "description": "Team supervision with moderate permissions",
+    "permissions": ["read", "write", "supervise"],
+    "userCount": 0,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "isActive": true,
+    "priority": 2
+  }
+]

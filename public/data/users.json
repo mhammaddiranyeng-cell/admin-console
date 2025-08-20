@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "username": "john.doe",
+    "email": "john.doe@company.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "role": "Admin",
+    "status": "Active",
+    "lastLogin": "2024-01-15T10:30:00Z",
+    "department": "IT"
+  },
+  {
+    "id": 2,
+    "username": "jane.smith",
+    "email": "jane.smith@company.com",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "role": "Manager",
+    "status": "Active",
+    "lastLogin": "2024-01-14T15:45:00Z",
+    "department": "HR"
+  },
+  {
+    "id": 3,
+    "username": "mike.johnson",
+    "email": "mike.johnson@company.com",
+    "firstName": "Mike",
+    "lastName": "Johnson",
+    "role": "User",
+    "status": "Inactive",
+    "lastLogin": "2024-01-10T09:15:00Z",
+    "department": "Sales"
+  },
+  {
+    "id": 4,
+    "username": "sarah.wilson",
+    "email": "sarah.wilson@company.com",
+    "firstName": "Sarah",
+    "lastName": "Wilson",
+    "role": "Manager",
+    "status": "Active",
+    "lastLogin": "2024-01-15T14:20:00Z",
+    "department": "Marketing"
+  },
+  {
+    "id": 5,
+    "username": "david.brown",
+    "email": "david.brown@company.com",
+    "firstName": "David",
+    "lastName": "Brown",
+    "role": "User",
+    "status": "Active",
+    "lastLogin": "2024-01-13T11:30:00Z",
+    "department": "Finance"
+  },
+  {
+    "id": 6,
+    "username": "lisa.davis",
+    "email": "lisa.davis@company.com",
+    "firstName": "Lisa",
+    "lastName": "Davis",
+    "role": "Admin",
+    "status": "Active",
+    "lastLogin": "2024-01-15T16:45:00Z",
+    "department": "IT"
+  },
+  {
+    "id": 7,
+    "username": "tom.anderson",
+    "email": "tom.anderson@company.com",
+    "firstName": "Tom",
+    "lastName": "Anderson",
+    "role": "User",
+    "status": "Active",
+    "lastLogin": "2024-01-12T13:15:00Z",
+    "department": "Operations"
+  },
+  {
+    "id": 8,
+    "username": "emma.taylor",
+    "email": "emma.taylor@company.com",
+    "firstName": "Emma",
+    "lastName": "Taylor",
+    "role": "Manager",
+    "status": "Active",
+    "lastLogin": "2024-01-14T10:00:00Z",
+    "department": "Customer Support"
+  }
+]

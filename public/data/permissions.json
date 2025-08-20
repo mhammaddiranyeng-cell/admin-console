@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "read",
+    "description": "Ability to view data and resources",
+    "category": "Basic",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["Admin", "Manager", "User", "Guest", "Supervisor"],
+    "riskLevel": "Low"
+  },
+  {
+    "id": 2,
+    "name": "write",
+    "description": "Ability to create and modify data",
+    "category": "Moderate",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["Admin", "Manager", "Supervisor"],
+    "riskLevel": "Medium"
+  },
+  {
+    "id": 3,
+    "name": "delete",
+    "description": "Ability to remove data and resources",
+    "category": "High",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["Admin"],
+    "riskLevel": "High"
+  },
+  {
+    "id": 4,
+    "name": "admin",
+    "description": "Full administrative access to the system",
+    "category": "Administrative",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["Admin"],
+    "riskLevel": "Critical"
+  },
+  {
+    "id": 5,
+    "name": "limited_admin",
+    "description": "Limited administrative access for managers",
+    "category": "Administrative",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["Manager"],
+    "riskLevel": "High"
+  },
+  {
+    "id": 6,
+    "name": "limited_write",
+    "description": "Limited ability to modify specific data",
+    "category": "Moderate",
+    "isActive": true,
+    "createdAt": "2024-01-01T00:00:00Z",
+    "assignedRoles": ["User"],
+    "riskLevel": "Medium"
+  },
+  {
+    "id": 7,
+    "name": "supervise",
+    "description": "Ability to oversee team activities",
+    "category": "Supervisory",
+    "isActive": true,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "assignedRoles": ["Supervisor"],
+    "riskLevel": "Medium"
+  },
+  {
+    "id": 8,
+    "name": "audit",
+    "description": "Ability to view audit logs and reports",
+    "category": "Monitoring",
+    "isActive": false,
+    "createdAt": "2024-01-10T00:00:00Z",
+    "assignedRoles": [],
+    "riskLevel": "Medium"
+  }
+]
